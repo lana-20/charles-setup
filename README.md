@@ -69,6 +69,7 @@ Before I can configure my mobile device to use Charles, I need to know the IP ad
   I need both numbers for the next step.
 
 ‼️ Important note when connecting *new* mobile devices:
+
   Once a new device tries to connect to my Charles session, Charles will ask me to **grant the permission** to do so. I make sure to allow my connection. I also **disable or appropriately configure any firewall or internet security** and permit incoming traffic to Charles respectively to port 8888 or the port I've determined for Charles before.
 
 #### Connect Android Smartphone
@@ -89,7 +90,7 @@ To connect an Android smartphone, head to the WiFi settings and proceed as follo
 
 The settings on your device may look slightly different, but you should find the right area to modify the WiFi network. It will be located around the WiFi network, to which you are currently connected.
 
-#### Connect iOS Smartphone
+#### [Connect iOS Smartphone](https://youtu.be/vtSLoCC299U)
 
 To connect an iOS device, follow these below captioned steps:
 
