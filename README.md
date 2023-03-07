@@ -85,6 +85,52 @@ To connect an Android smartphone, head to the WiFi settings and proceed as follo
 
 ♦ Tap Save. <img width=40 src="https://user-images.githubusercontent.com/70295997/223303936-93820a76-13af-4d15-bd77-072e21d34273.png">
 
+![2017 10 27 02 58 17-1_1](https://user-images.githubusercontent.com/70295997/223304321-36520bd1-e090-4cb3-b73c-3549e9996a3f.gif)
+
+The settings on your device may look slightly different, but you should find the right area to modify the WiFi network. It will be located around the WiFi network, to which you are currently connected.
+
+#### Connect iOS Smartphone
+
+To connect an iOS device, follow these below captioned steps:
+
+♦ Tap **Settings**
+
+♦ Tap **WiFi**
+
+♦ Tap **(i)** right to your selected WiFi network
+
+♦ Scroll to the bottom to the **HTTP PROXY** section
+
+♦ Tap **Manual**
+
+♦ Enter the IP address from above in Server
+
+♦ Enter the port from above in Port
+
+
+## Capture and Decrypt SSL Traffic
+
+As soon as customers require me to use Charles, they want to know what my mobile device is doing during its communication with their services. If this communication is encrypted, which is great for my day-to-day security, this traffic needs to be decrypted using a certificate. I'm going to install this certificate to allow Charles to listen to that communication. Let's start with the desktops again.
+
+### Install Desktop Certificate
+
+Fortunately Charles already includes this certificate and allows to install it using the menu easily. I have to circumvent a possible pitfall though. Just follow me through the process:
+
+♦ Within Charles click **Help > SSL Proxying > Install Charles Root Certificate**
+
+♦ In the new window click **Install certificate** and confirm the first screen unchanged
+
+♦ Now select the second option **Place all certificates in the following store**
+
+♦ Choose **Trusted Root Certification Authorities** as the store and finish the certificate installation wizard
+
+![2017-10-26_22h09_25](https://user-images.githubusercontent.com/70295997/223305600-3a525c88-c267-4135-9437-4395c7669b0c.gif)
+
+
+
+
+
+
 
 
 
