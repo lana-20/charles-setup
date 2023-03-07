@@ -125,6 +125,7 @@ Fortunately Charles already includes this certificate and allows to install it u
 ♦ Choose **Trusted Root Certification Authorities** as the store and finish the certificate installation wizard
 
 ![2017-10-26_22h09_25](https://user-images.githubusercontent.com/70295997/223305600-3a525c88-c267-4135-9437-4395c7669b0c.gif)
+<img width="800" src="https://user-images.githubusercontent.com/70295997/223399668-fa2e66fd-c1aa-43da-abaa-9e8e132d2fbc.png">
 
 ### Install Certificate on Mobile Device
 
