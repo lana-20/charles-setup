@@ -8,9 +8,9 @@ Let's go throgh the installatio and configuration steps:
 
 🔵 [Connect a Smartphone or Tablet to Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#connect-devices)
 
-🔵 [Capture SSL traffic using Charles]()
+🔵 [Capture SSL traffic using Charles](https://github.com/lana-20/charles-setup#capture-and-decrypt-ssl-traffic)
 
-🔵 [Export device logs for attaching them to bug reports]()
+🔵 [Export device logs for attaching them to bug reports](https://github.com/lana-20/charles-setup#capture-ssl-logs)
 
 ## Download and Install
 
