@@ -108,7 +108,6 @@ To connect an iOS device, follow these below captioned steps:
 
 ♦ Enter the port from above in Port
 
-
 ## Capture and Decrypt SSL Traffic
 
 As soon as customers require me to use Charles, they want to know what my mobile device is doing during its communication with their services. If this communication is encrypted, which is great for my day-to-day security, this traffic needs to be decrypted using a certificate. I'm going to install this certificate to allow Charles to listen to that communication. Let's start with the desktops again.
@@ -173,5 +172,25 @@ As my devices are set up for SSL logging now, I just have to enable SSL proxying
 
   Restart Charles afterwards.
 
+## Capture SSL Logs
 
+Now as Charles is running with the right settings, as the certificates have been installed, as my devices are configured to use Charles on my computer and as SSL proxying is enabled, I'm good to go!
+
+Let's conclude the steps to collect logging information and to export them for to the benefit of a bug report:
+
+♦ Clear the Charles log using the broom button
+
+♦ Be sure, that logging is active (red button in the toolbar)
+
+♦ Perform your actions or steps to reproduce an issue
+
+♦ Stop the logging by clicking the red button
+
+♦ Head to File > Save Session as...
+
+♦ Choose a folder and pick a file name (please do not use periods in the name)
+
+♦ Upload the log ending with .chls to your bug report
+
+♦ Done!
 
