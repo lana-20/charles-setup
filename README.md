@@ -14,7 +14,9 @@ Let's go throgh the installatio and configuration steps:
 
 ## Download and Install
 
-Although Charles is not an open source software or a free tool, a demo version is available. It can be downloaded and used for free, but limits each session to 30 minutes. Consequently, you have to restart the software now and then, if you want to use it for a more extended period. 
+Although Charles is not an open source software or a free tool, a demo version is available. It can be downloaded and used for free, but limits each session to 30 minutes. Consequently, you have to restart the software now and then, if you want to use it for a more extended period.
+
+<img width="600" src="https://user-images.githubusercontent.com/70295997/223296577-314ac68f-8ac3-4f2f-8ec0-aa908d9935ca.png">
 
 Download the appropriate version of [Charles Proxy](https://www.charlesproxy.com/download/) for your OS.
 
