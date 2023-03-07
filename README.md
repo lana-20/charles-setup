@@ -127,10 +127,32 @@ Fortunately Charles already includes this certificate and allows to install it u
 
 ![2017-10-26_22h09_25](https://user-images.githubusercontent.com/70295997/223305600-3a525c88-c267-4135-9437-4395c7669b0c.gif)
 
+### Install Certificate on Mobile Device
 
+To install the certificate on a mobile device, just do the following:
 
+♦ Be sure that the device is successfully connected to the Charles session:
+  - Proxy is set to *Manual* and configured in your WiFi settings
+  - Disconnect any active **VPNs** to avoid issues during the Charles session
+  - Charles is running and the permission for the device has been granted
+  - Browse on the phone and new logging entries appear within Charles
 
+♦ Head to the address chls.pro/ssl (which leads to charlesproxy.com/getssl/) on the mobile device
 
+♦ This downloads the certificate and should automatically open an installation prompt
+
+♦ I may insert a name for the certificate like Charles Proxy, if needed, and confirm the installation
+
+♦ Use Google and try searching for *iOS install certificate* for instance, if the installation process is unclear
+
+####  iOS 10.3 or higher
+
+If using iOS 10.3 or higher, additionally follow these steps to trust the certificate:
+
+♦ Navigate to **Settings**
+♦ Tap **About**
+♦ Tap **Certificate Trust Settings** (bottom of the list)
+♦ Trust the *Charles Root Certificate*
 
 
 
