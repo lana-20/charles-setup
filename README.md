@@ -4,13 +4,13 @@ Some test cycles require extended logging of the internet traffic from/to your d
 
 Let's go throgh the installatio and configuration steps:
 
-✰ [Download and install Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#download-and-install)
+🔵 [Download and install Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#download-and-install)
 
-✰ [Connect a Smartphone or Tablet to Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#connect-devices)
+🔵 [Connect a Smartphone or Tablet to Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#connect-devices)
 
-✰ [Capture SSL traffic using Charles]()
+🔵 [Capture SSL traffic using Charles]()
 
-✰ [Export device logs for attaching them to bug reports]()
+🔵 [Export device logs for attaching them to bug reports]()
 
 ## Download and Install
 
@@ -55,25 +55,35 @@ If I can see my log filling up, I'm good to go.
 
 ### Mobile Devices
 
-Gather ② crucial pieces of information first.
+#### Gather ② crucial pieces of information first.
 
 Before I can configure my mobile device to use Charles, I need to know the IP address of my computer (running Charles) and the port. This can quickly be done as follows:
 
-♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. It most certainly starts with <code>192</code> and must not end with <code>1</code>. In my case it's <code>192.168.178.100</code>.
+♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. It most certainly starts with <code>192</code> and must not end with <code>1</code>. In my case it's <code>192.168.178.100</code>
 
-   ![2017-10-26_20h39_33](https://user-images.githubusercontent.com/70295997/223300255-ae04ed1b-f4ae-4abf-b7de-3624fd9b9edb.gif)
+♦ I also need to know the port, that Charles is using. 
+  
+  ![2017-10-26_20h39_33](https://user-images.githubusercontent.com/70295997/223300255-ae04ed1b-f4ae-4abf-b7de-3624fd9b9edb.gif)
+  <img width="600" src="https://user-images.githubusercontent.com/70295997/223302269-0804a6a5-bdfc-4fc0-91f7-8072fa96780f.png">
 
-♦ 
+  I need both numbers for the next step.
 
-♦ 
+‼️ Important note when connecting *new* mobile devices:
+  Once a new device tries to connect to my Charles session, Charles will ask me to **grant the permission** to do so. I make sure to allow my connection. I also **disable or appropriately configure any firewall or internet security** and permit incoming traffic to Charles respectively to port 8888 or the port I've determined for Charles before.
 
-♦ 
+#### Connect Android Smartphone
 
-♦ 
+To connect an Android smartphone, head to the WiFi settings and proceed as follows:
 
+♦ Go to **Settings > Network & Internet > Wi-Fi**
 
+♦ Locate the active connection, long-tap it and select **Modify network**
 
+♦ Expand the *Advanced options*, tap at **None** below *Proxy* and select **Manual**
 
+♦ Enter the IP address from the previous step into the *Proxy hostname* field and the port into the *Proxy port* field
+
+♦ Tap Save. <img width=40 src="https://user-images.githubusercontent.com/70295997/223303936-93820a76-13af-4d15-bd77-072e21d34273.png">
 
 
 
