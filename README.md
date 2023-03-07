@@ -209,3 +209,6 @@ Let's conclude the steps to collect logging information and to export them for t
 After I have finished my Charles session, I make sure to close the software and to revert my WiFi settings on my mobile devices to their prior state. Hence I set the Proxy to **None** again in the WiFi settings. I also remove the certificate from the devices if they are my privately used desktops, smartphones and tablets and not only meant for testing. 
 
 If I ever want to start logging in the future, I start Charles and add the IP address and port to my WiFi settings again. If the certificate was removed, remember to add it back too.
+
+<img src="https://user-images.githubusercontent.com/70295997/223315240-010ee171-e169-4ed2-aaa6-ebf37540c714.png" width=40> Happy logging! 
+
