@@ -30,7 +30,7 @@ As Charles is running now, we want to route all the network traffic from and to 
 
 You are already done! As soon as Charles is running, it will automatically capture and record all browser traffic. This procedure typically covers the most common browsers like Chrome, Firefox, Safari, and Edge. You can quickly check the proxy connection by following these steps:
 
-♦ Ensure that Windows Proxy is enabled in the Proxy menu.
+♦ Ensure that **Windows** or **macOS** Proxy is enabled in the Proxy menu.
   
   <img width="800" src="https://user-images.githubusercontent.com/70295997/223293316-92174d0f-3b47-452c-9b5e-34424a08fb9c.png">
 
@@ -42,6 +42,7 @@ You are already done! As soon as Charles is running, it will automatically captu
 
 ♦ You'll see new log entries popping up in the Charles log.
 
+<img width="800" src="https://user-images.githubusercontent.com/70295997/223295849-98a59ccb-fec6-467a-89dd-07c9f299b1ec.png">
 
 ♦ You can also pause and resume the logging at any time using the second red/grey button in the toolbar.
 
