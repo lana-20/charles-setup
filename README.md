@@ -4,9 +4,9 @@ Some test cycles require extended logging of the internet traffic from/to your d
 
 Let's go throgh the installatio and configuration steps:
 
-✰ Download and install Charles
+✰ [Download and install Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#download-and-install)
 
-✰ Connect a Smartphone or Tablet to Charles
+✰ [Connect a Smartphone or Tablet to Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#connect-devices)
 
 ✰ Capture SSL traffic using Charles
 
