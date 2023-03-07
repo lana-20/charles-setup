@@ -172,6 +172,18 @@ As my devices are set up for SSL logging now, I just have to enable SSL proxying
 
   Restart Charles afterwards.
 
+#### Tailor Coverage to Specific Needs
+
+Above, I entered <code>*</code> as the *Host*. This *wildcard* character enables the SSL proxying for every possible web address or service, I may visit. Though I might want to tailor the proxying, and therefore logging, to my needs via specifically including certain addresses or parts of addresses. Using wildcards provides a very versatile way of filtering specific URLs, which I want to cover.
+
+This can become very handy, if I want to limit the coverage to an app or page under test. Let me provide some examples:
+
+- <code>*google*</code> would cover every traffic from and to *google*, which includes *photos.google.com*, *google.com/mail* and so on
+- <code>photos.google</code> would include everything from and to *photos.google.com*, but not *google.com/mail* for instance
+- <code>google.com/mail</code> would cover the entire *mail* section, but no other section or *photos.google.com*. Though it would cover *photos.google.com/mail/...* if such websites existed.
+
+So I take the relevant part of the address, which may include/exclude or be limited to sub-domains like *calendar* in <code>calendar.google.com</code> and replace the rest of the address with a <code>*</code> to allow every string or even no string (zero or more characters) in its place. I can also use the wildcard <code>?</code>, which replaces exactly one single character. So <code>go?gle</code> would match *google* or *goggle*, but not *gogle* or *googgle*.
+
 ## Capture SSL Logs
 
 Now as Charles is running with the right settings, as the certificates have been installed, as my devices are configured to use Charles on my computer and as SSL proxying is enabled, I'm good to go!
@@ -180,17 +192,20 @@ Let's conclude the steps to collect logging information and to export them for t
 
 ♦ Clear the Charles log using the broom button
 
-♦ Be sure, that logging is active (red button in the toolbar)
+♦ Be sure that logging is active (red button in the toolbar)
 
-♦ Perform your actions or steps to reproduce an issue
+♦ Perform actions or steps to reproduce an issue
 
 ♦ Stop the logging by clicking the red button
 
-♦ Head to File > Save Session as...
+♦ Head to **File > Save Session as...**
 
-♦ Choose a folder and pick a file name (please do not use periods in the name)
+♦ Choose a folder and pick a file name (don't use periods in the name)
 
-♦ Upload the log ending with .chls to your bug report
+♦ Upload the log ending with <code>.chls</code> to the bug report <img width=40 src="https://user-images.githubusercontent.com/70295997/223303936-93820a76-13af-4d15-bd77-072e21d34273.png">
 
-♦ Done!
+### Tidy up
 
+After I have finished my Charles session, I make sure to close the software and to revert my WiFi settings on my mobile devices to their prior state. Hence I set the Proxy to **None** again in the WiFi settings. I also remove the certificate from the devices if they are my privately used desktops, smartphones and tablets and not only meant for testing. 
+
+If I ever want to start logging in the future, I start Charles and add the IP address and port to my WiFi settings again. If the certificate was removed, remember to add it back too.
