@@ -59,7 +59,9 @@ Gather ② crucial pieces of information first.
 
 Before I can configure my mobile device to use Charles, I need to know the IP address of my computer (running Charles) and the port. This can quickly be done as follows:
 
-♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. It most certainly starts with <code>192</code> and must not end with <code>1</code>. In my case it's 192.168.178.100.
+♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. It most certainly starts with <code>192</code> and must not end with <code>1</code>. In my case it's <code>192.168.178.100</code>.
+
+   ![2017-10-26_20h39_33](https://user-images.githubusercontent.com/70295997/223300255-ae04ed1b-f4ae-4abf-b7de-3624fd9b9edb.gif)
 
 ♦ 
 
@@ -68,6 +70,7 @@ Before I can configure my mobile device to use Charles, I need to know the IP ad
 ♦ 
 
 ♦ 
+
 
 
 
