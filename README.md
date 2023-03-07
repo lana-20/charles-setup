@@ -1,4 +1,4 @@
-# Intro to Charles Web Proxy for Desktops and Smartphones
+# Configure Charles Web Proxy on Desktops and Smartphones
 
 Some test cycles require extended logging of the internet traffic from/to your device or a connection routed through a proxy server. For that purpose, I have to deal with some proxy server software, such as Charles Web Proxy.
 
