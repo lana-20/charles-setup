@@ -57,9 +57,9 @@ If I can see my log filling up, I'm good to go.
 
 #### Gather ② crucial pieces of information first.
 
-Before I can configure my mobile device to use Charles, I need to know the IP address of my computer (running Charles) and the port. This can quickly be done as follows:
+Before I can configure my mobile device to use Charles, I need to know the <code>IP address</code> of my computer (running Charles) and the <code>port</code>. This can quickly be done as follows:
 
-♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. It most certainly starts with <code>192</code> and must not end with <code>1</code>. In my case it's <code>192.168.178.100</code>
+♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. In the below captioned case, it's <code>192.168.178.100</code>
 
 ♦ I also need to know the port, that Charles is using. 
   
