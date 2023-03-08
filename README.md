@@ -61,9 +61,11 @@ Before I can configure my mobile device to use Charles, I need to know the <code
 
 ♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. In the below captioned case, it's <code>192.168.178.100</code>
 
+
 ♦ I also need to know the port, that Charles is using. 
   
   ![2017-10-26_20h39_33](https://user-images.githubusercontent.com/70295997/223300255-ae04ed1b-f4ae-4abf-b7de-3624fd9b9edb.gif)
+  <img width="600" src="https://user-images.githubusercontent.com/70295997/223618315-2daa007e-27fb-4001-b601-26319d42db06.png">
   <img width="600" src="https://user-images.githubusercontent.com/70295997/223302269-0804a6a5-bdfc-4fc0-91f7-8072fa96780f.png">
 
   I need both numbers for the next step.
