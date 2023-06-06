@@ -2,7 +2,7 @@
 
 Some test cycles require extended logging of the internet traffic from/to your device or a connection routed through a proxy server. For that purpose, we work with some proxy server software, such as Charles Web Proxy.
 
-Let's go throgh the installation and configuration steps:
+Let's go through the installation and configuration steps:
 
 🔵 [Download and install Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#download-and-install)
 
