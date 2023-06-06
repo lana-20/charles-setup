@@ -1,8 +1,8 @@
 # Configure Charles Web Proxy on Desktops and Smartphones
 
-Some test cycles require extended logging of the internet traffic from/to your device or a connection routed through a proxy server. For that purpose, I have to deal with some proxy server software, such as Charles Web Proxy.
+Some test cycles require extended logging of the internet traffic from/to your device or a connection routed through a proxy server. For that purpose, we work with some proxy server software, such as Charles Web Proxy.
 
-Let's go throgh the installatio and configuration steps:
+Let's go throgh the installation and configuration steps:
 
 🔵 [Download and install Charles](https://github.com/lana-20/charles-setup/blob/main/README.md#download-and-install)
 
@@ -14,7 +14,7 @@ Let's go throgh the installatio and configuration steps:
 
 ## Download and Install
 
-Although Charles is not an open source software or a free tool, a demo version is available. It can be downloaded and used for free, but limits each session to 30 minutes. Consequently, I have to restart the software now and then, if I want to use it for a more extended period.
+Although Charles is not an open source software or a free tool, a demo version is available. It can be downloaded and used for free, but limits each session to 30 minutes. Consequently, we have to restart the software now and then, if we want to use it for a more extended period.
 
 <img width="600" src="https://user-images.githubusercontent.com/70295997/223296577-314ac68f-8ac3-4f2f-8ec0-aa908d9935ca.png">
 
@@ -22,15 +22,15 @@ Download the OS-appropriate version of [Charles Proxy](https://www.charlesproxy.
 
 <img width="800" src="https://user-images.githubusercontent.com/70295997/223290039-0a68dbd5-123e-4614-a880-776524a9cd54.png">
 
-Once the installation is finished, start the software. I have to wait 10 seconds at every start.
+Once the installation is finished, start the software. We have to wait 10 seconds at every start.
 
 ## Connect Devices
 
-As Charles is running now, I want to route all the network traffic from and to my devices through it. Depending on the device I plan to use, perform the following steps matching the device(s).
+As Charles is running now, we want to route all the network traffic from and to our devices through it. Depending on the device you plan to use, perform the following steps matching the device(s).
 
 ### Desktops
 
-I am already done! As soon as Charles is running, it automatically captures and records all browser traffic. This procedure typically covers the most common browsers like Chrome, Firefox, Safari, and Edge. I can quickly check the proxy connection by following these steps:
+We are already done! As soon as Charles is running, it automatically captures and records all browser traffic. This procedure typically covers the most common browsers like Chrome, Firefox, Safari, and Edge. You can quickly check the proxy connection by following these steps:
 
 ♦ Ensure that **Windows** or **macOS** Proxy is enabled in the Proxy menu.
   
@@ -47,32 +47,32 @@ I am already done! As soon as Charles is running, it automatically captures and 
 
 <img width="800" src="https://user-images.githubusercontent.com/70295997/223295849-98a59ccb-fec6-467a-89dd-07c9f299b1ec.png">
 
-♦ I can also pause and resume the logging at any time using the second red/grey button in the toolbar.
+♦ You can also pause and resume the logging at any time using the second red/grey button in the toolbar.
 
 <img width="600" src="https://user-images.githubusercontent.com/70295997/223294999-aef56c65-9f69-4a50-8a04-6848c91a092f.png">
 
-If I can see my log filling up, I'm good to go.
+If you can see yout log filling up, you are good to go.
 
 ### Mobile Devices
 
 #### Gather ② crucial pieces of information first.
 
-Before I can configure my mobile device to use Charles, I need to know the <code>IP address</code> of my computer (running Charles) and the <code>port</code>. This can quickly be done as follows:
+Before we can configure our mobile device to use Charles, you need to know the <code>IP address</code> of your computer (running Charles) and the <code>port</code>. This can quickly be done as follows:
 
 ♦ Click **Help > Local IP Address** to locate the IP. The address consists of four blocks of one to three digits each. In the below captioned examples, it's <code>192.168.178.100</code> or <code>10.0.0.76</code>.
 
 
-♦ I also need to know the port, that Charles is using. 
+♦ You also need to know the port that Charles is using. 
   
   ![2017-10-26_20h39_33](https://user-images.githubusercontent.com/70295997/223300255-ae04ed1b-f4ae-4abf-b7de-3624fd9b9edb.gif)
   <img width="600" src="https://user-images.githubusercontent.com/70295997/223618315-2daa007e-27fb-4001-b601-26319d42db06.png">
   <img width="600" src="https://user-images.githubusercontent.com/70295997/223302269-0804a6a5-bdfc-4fc0-91f7-8072fa96780f.png">
 
-  I need both numbers for the next step.
+  We need both numbers for the next step.
 
 ‼️ Important note when connecting *new* mobile devices:
 
-  Once a new device tries to connect to my Charles session, Charles will ask me to **grant the permission** to do so. I make sure to allow my connection. I also **disable or appropriately configure any firewall or internet security** and permit incoming traffic to Charles respectively to port 8888 or the port I've determined for Charles before.
+  Once a new device tries to connect to your Charles session, Charles will ask you to **grant the permission** to do so. Make sure to allow your connection. We also **disable or appropriately configure any firewall or internet security** and permit incoming traffic to Charles respectively to port 8888 or the port you've determined for Charles before.
 
 #### Connect Android Smartphone
 
@@ -112,11 +112,11 @@ To connect an iOS device, follow these below captioned steps:
 
 ## Capture and Decrypt SSL Traffic
 
-As soon as customers require me to use Charles, they want to know what my mobile device is doing during its communication with their services. If this communication is encrypted, which is great for my day-to-day security, this traffic needs to be decrypted using a certificate. I'm going to install this certificate to allow Charles to listen to that communication. Let's start with the desktops again.
+As soon as customers require us to use Charles, they want to know what our mobile device is doing during its communication with their services. If this communication is encrypted, which is great for our day-to-day security, this traffic needs to be decrypted using a certificate. We're going to install this certificate to allow Charles to listen to that communication. Let's start with the desktops again.
 
 ### Install Desktop Certificate
 
-Fortunately Charles already includes this certificate and allows to install it using the menu easily. I have to circumvent a possible pitfall though. Just follow me through the process:
+Fortunately, Charles already includes this certificate and allows to install it using the menu easily. We have to circumvent a possible pitfall though. Just follow the below captioned process:
 
 ♦ Within Charles click **Help > SSL Proxying > Install Charles Root Certificate**
 
@@ -144,7 +144,7 @@ To install the certificate on a mobile device, just do the following:
 
 ♦ This downloads the certificate and should automatically open an installation prompt
 
-♦ I may insert a name for the certificate like Charles Proxy, if needed, and confirm the installation
+♦ You may insert a name for the certificate like Charles Proxy, if needed, and confirm the installation
 
 ♦ Use Google and try searching for *iOS install certificate* for instance, if the installation process is unclear
 
@@ -162,7 +162,7 @@ If using iOS 10.3 or higher, additionally follow these steps to trust the certif
 
 ### Enable HTTPS Proxying
 
-As my devices are set up for SSL logging now, I just have to enable SSL proxying within Charles as follows:
+As our devices are set up for SSL logging now, we just have to enable SSL proxying within Charles as follows:
 
 ♦ Within Charles click **Proxy > SSL Proxying Settings...**
 
@@ -178,19 +178,19 @@ As my devices are set up for SSL logging now, I just have to enable SSL proxying
 
 #### Tailor Coverage to Specific Needs
 
-Above, I entered <code>*</code> as the *Host*. This *wildcard* character enables the SSL proxying for every possible web address or service, I may visit. Though I might want to tailor the proxying, and therefore logging, to my needs via specifically including certain addresses or parts of addresses. Using wildcards provides a very versatile way of filtering specific URLs, which I want to cover.
+Above, we entered <code>*</code> as the *Host*. This *wildcard* character enables the SSL proxying for every possible web address or service we may visit. Though we might want to tailor the proxying, and therefore logging, to our needs via specifically including certain addresses or parts of addresses. Using wildcards provides a very versatile way of filtering specific URLs, which we want to cover.
 
-This can become very handy, if I want to limit the coverage to an app or page under test. Let me provide some examples:
+This can become very handy, if we want to limit the coverage to an app or page under test. Let me provide some examples:
 
 - <code>*google*</code> would cover every traffic from and to *google*, which includes *photos.google.com*, *google.com/mail* and so on
 - <code>photos.google</code> would include everything from and to *photos.google.com*, but not *google.com/mail* for instance
 - <code>google.com/mail</code> would cover the entire *mail* section, but no other section or *photos.google.com*. Though it would cover *photos.google.com/mail/...* if such websites existed.
 
-So I take the relevant part of the address, which may include/exclude or be limited to sub-domains like *calendar* in <code>calendar.google.com</code> and replace the rest of the address with a <code>*</code> to allow every string or even no string (zero or more characters) in its place. I can also use the wildcard <code>?</code>, which replaces exactly one single character. So <code>go?gle</code> would match *google* or *goggle*, but not *gogle* or *googgle*.
+So we take the relevant part of the address, which may include/exclude or be limited to sub-domains like *calendar* in <code>calendar.google.com</code> and replace the rest of the address with a <code>*</code> to allow every string or even no string (zero or more characters) in its place. You can also use the wildcard <code>?</code>, which replaces exactly one single character. So <code>go?gle</code> would match *google* or *goggle*, but not *gogle* or *googgle*.
 
 ## Capture SSL Logs
 
-Now as Charles is running with the right settings, as the certificates have been installed, as my devices are configured to use Charles on my computer and as SSL proxying is enabled, I'm good to go!
+Now as Charles is running with the right settings, as the certificates have been installed, as our devices are configured to use Charles on our computer, and as SSL proxying is enabled, we're good to go!
 
 Let's conclude the steps to collect logging information and to export them for to the benefit of a bug report:
 
@@ -210,9 +210,9 @@ Let's conclude the steps to collect logging information and to export them for t
 
 ### Tidy up
 
-After I have finished my Charles session, I make sure to close the software and to revert my WiFi settings on my mobile devices to their prior state. Hence I set the Proxy to **None** again in the WiFi settings. I also remove the certificate from the devices if they are my privately used desktops, smartphones and tablets and not only meant for testing. 
+After you have finished your Charles session, make sure to close the software and to revert your WiFi settings on the mobile devices to their prior state. Hence we set the Proxy to **None** again, in the WiFi settings. We also remove the certificate from the devices if they are our privately used desktops, smartphones and tablets and not only meant for testing. 
 
-If I ever want to start logging in the future, I start Charles and add the IP address and port to my WiFi settings again. If the certificate was removed, remember to add it back too.
+If you ever want to start logging in the future, start Charles and add the IP address and port to your WiFi settings again. If the certificate was removed, remember to add it back too.
 
 <img src="https://user-images.githubusercontent.com/70295997/223315240-010ee171-e169-4ed2-aaa6-ebf37540c714.png" width=40> Happy logging! 
 
