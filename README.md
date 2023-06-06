@@ -20,7 +20,7 @@ Although Charles is not an open source software or a free tool, a demo version i
 
 Download the OS-appropriate version of [Charles Proxy](https://www.charlesproxy.com/download/).
 
-<img width="800" src="https://user-images.githubusercontent.com/70295997/223290039-0a68dbd5-123e-4614-a880-776524a9cd54.png">
+<img width="800" src="https://github.com/lana-20/charles-setup/assets/70295997/20a64fc1-392b-4730-abb0-df22a7554da8">
 
 Once the installation is finished, start the software. We have to wait 10 seconds at every start.
 
