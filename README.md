@@ -51,7 +51,7 @@ We are already done! As soon as Charles is running, it automatically captures an
 
 <img width="600" src="https://user-images.githubusercontent.com/70295997/223294999-aef56c65-9f69-4a50-8a04-6848c91a092f.png">
 
-If you can see yout log filling up, you are good to go.
+If you can see your log filling up, you are good to go.
 
 ### Mobile Devices
 
