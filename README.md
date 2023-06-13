@@ -218,9 +218,15 @@ If you ever want to start logging in the future, start Charles and add the IP ad
 
 ____
 
-Charles can be installed in our machines as a desktop app. We can also install it on iOS device without connecting Xcode, but the mobile app has some limitations. The iOS version of Charles covers some extra scenaros, however usually I use the desktop app which is much more feature- and functionality-rich.
+Charles can be installed in our machines as a desktop app. We can also install it on iOS device without connecting Xcode, but the mobile app has some limitations. The iOS version of Charles covers some extra scenaros, however usually I use the desktop app which is much more feature- and functionality-rich. If interested, you can download and install the iOS version from the App Store for a one-time charge of $8.99. This will allow you decode the traffic right on the mobile device.
+
+Most users use mobile data, not WiFi. An advantage of the iOS version of Charles is being in mobile data and measuring how long the communication takes more accurately, as compared to the desktop version of Charles which operates via the computer's WiFi network. Testing speed measurement is more accurate on the actual mobile device. Also, the iOS version of the Charles app is a little easier to configure than the desktop one. The disadvantage is that it lacks all the cool features of the desktop app, such as Breakpoints, Re-Write, Map Local, etc. 
 
 Charles configuration may be a bit complex, but its benefits are more than worth it. There's a 30-day free trial, after which a $50 life-time license is available for purchase. Without a license after a free trial, Charles still works but it shuts down every 30 minutes, which is usually enough to test. You can just restart it and keep testing.
+
+Charles Proxy is pure joyful magic, when it's already configured. We need to download/install Charles, install/add the SSL certificate on Windows or Mac OS, as well as on mobile Android and iOS devices. Once you have the SSL certificate installed on your machine, you need to add the IP address in a couple of places, for example, in Access Control Settings and SSL Proxying Settings.
+
+Sometimes, we configure everything and all works fine, but then we open Charles the next time and see it it not reading any traffic, eveything is encrypted. We might see a lot of red squares with white crosses. In this case, double-check Proxy > Access Control Settings and verify that your IP address is stiil listed there. Sometimes it may be gone without explicit erasure. You may need to add your IP address again. If you end up visiting a friend to showcase how cool Charles is and exiting the home network, your IP address would change. It means you'd have to change it in the Access Control Settings. When you connect your mobile device, you'd use the same IP address to connect it as well. In order to work together, your device and computer should be on the same network.
 
 **Configuring Charles Proxy**:
 
