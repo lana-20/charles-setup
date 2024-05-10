@@ -1,3 +1,5 @@
+NOTE: This repo has been refurbished and published on Medium: https://medium.com/@begunova/charles-proxy-setup-for-desktops-and-mobile-devices-03c3fd28f882.
+
 # Configure Charles Web Proxy on Desktops and Smartphones
 
 Some test cycles require extended logging of the internet traffic from/to your device or a connection routed through a proxy server. For that purpose, we work with some proxy server software, such as Charles Web Proxy.
